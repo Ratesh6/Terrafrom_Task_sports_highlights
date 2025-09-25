@@ -1,0 +1,17 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Python / Pipeline
+__pycache__/
+*.pyc
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

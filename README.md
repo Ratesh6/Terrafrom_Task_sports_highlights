@@ -1,40 +1,4 @@
-+---------------------+
-| RapidAPI Sports API |
-|  (Highlights)       |
-+----------+----------+
-           |
-           v
-+---------------------+
-| EC2 Instance        |  <-- Runs Dockerized pipeline
-| (Pipeline Scripts)  |
-|  - Fetch Videos     |
-|  - Download Videos  |
-|  - Process Videos   |
-+----------+----------+
-           |
-           v
-   +---------------+
-   | AWS MediaConvert |
-   | (Video Conversion) |
-   +-------+-------+
-           |
-           v
-+----------------+          +----------------+
-| S3 Bucket Raw  |          | S3 Bucket Processed |
-| (Original)     |          | (Converted)         |
-+----------------+          +----------------+
-           |
-           v
-   +----------------+
-   | AWS SNS (Optional) |
-   | Notifications     |
-   +----------------+
-           ^
-           |
-   +----------------+
-   | AWS EventBridge |
-   | (Scheduled Runs)|
-   +----------------+
+![alt text](image.png)
 
 
 

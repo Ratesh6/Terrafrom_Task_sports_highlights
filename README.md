@@ -81,4 +81,4 @@ Media companies can automatically collect and publish highlights.
 
 Sports analytics platforms can process and store video datasets for analysis.
 
-Coaches and teams can quickly access processed highlights for review.
+Coaches and teams can quickly access processed highlights for review....
